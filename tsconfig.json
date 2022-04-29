@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "/*": ["*"]
+    },
     "target": "es2021",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "module": "esnext",
@@ -16,7 +17,5 @@
     "jsx": "react-jsx"
   },
   "extends": "@tsconfig/strictest/tsconfig.json",
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

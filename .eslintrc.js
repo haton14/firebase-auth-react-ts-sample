@@ -10,6 +10,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'google',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -30,5 +31,7 @@ module.exports = {
         },
       },
     ],
+    'react/react-in-jsx-scope': 'off',
+    'require-jsdoc': ['off'],
   },
 };

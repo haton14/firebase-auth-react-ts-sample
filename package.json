@@ -1,5 +1,5 @@
 {
-  "name": "oauth2-sample",
+  "name": "firebase-auth-react-ts-sample",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
